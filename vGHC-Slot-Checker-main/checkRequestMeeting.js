@@ -214,7 +214,7 @@ const booths = [
   process.stdin.pause();
   
   let round = 1;
-  const checkInterval = 1 * 60 * 1000; // 1 minutes between checks
+  const checkInterval = 5 * 60 * 1000; // 5 minutes between checks
   
   console.log("🔄 Starting continuous monitoring...");
   console.log(`⏰ Will check every ${checkInterval / 60000} minutes`);
